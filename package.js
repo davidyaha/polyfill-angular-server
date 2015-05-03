@@ -14,9 +14,10 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.addFiles('angular-server-polyfill.js', 'server');
   api.addFiles('angular.js', 'server');
+  api.addFiles('angular-export.js', 'server');
 
   api.export('document', 'server');
-  api.export('window', 'server');
+  api.export('angular', 'server');
 });
 
 Package.onTest(function(api) {
