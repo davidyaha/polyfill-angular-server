@@ -1,6 +1,6 @@
 Package.describe({
   name: 'netanelgilad:angular-server',
-  version: '1.3.15-1',
+  version: '1.3.15_1',
   // Brief, one-line summary of the package.
   summary: 'Get AngularJS on the server side!',
   // URL to the Git repository containing the source code for this package.
