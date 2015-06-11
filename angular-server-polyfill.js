@@ -7,14 +7,17 @@ document = {
       setAttribute : function(href) {
 
       },
-      pathname : '/'
+      pathname : '/',
+      getAttribute : function() {
+
+      }
     };
   },
   addEventListener : function() {
 
   },
   querySelector : function() {
-    return {};
+
   },
   cookie : ''
 };
@@ -35,5 +38,6 @@ window.setTimeout = Meteor.setTimeout;
 window.setInterval = Meteor.setInterval;
 window.clearTimeout = Meteor.clearTimeout;
 window.clearInterval = Meteor.clearInterval;
+window.console = console;
 
 window.document = document;

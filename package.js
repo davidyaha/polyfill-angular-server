@@ -1,6 +1,6 @@
 Package.describe({
-  name: 'netanelgilad:angular-server',
-  version: '1.3.15_1',
+  name: 'angular:angular-server',
+  version: '1.4.0',
   // Brief, one-line summary of the package.
   summary: 'Get AngularJS on the server side!',
   // URL to the Git repository containing the source code for this package.
@@ -16,7 +16,6 @@ Package.onUse(function(api) {
   api.addFiles('angular.js', 'server');
   api.addFiles('angular-export.js', 'server');
 
-  api.export('document', 'server');
   api.export('angular', 'server');
 });
 
