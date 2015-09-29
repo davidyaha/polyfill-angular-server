@@ -1,6 +1,6 @@
 Package.describe({
   name: 'angular:angular-server',
-  version: '1.4.0',
+  version: '1.4.4',
   // Brief, one-line summary of the package.
   summary: 'Get AngularJS on the server side!',
   // URL to the Git repository containing the source code for this package.
