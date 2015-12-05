@@ -2,7 +2,7 @@ Package.describe({
   name: 'netanelgilad:polyfill-angular-server',
   version: '1.4.4',
   summary: 'Get AngularJS on the server side!',
-  git: 'http://gihub.com/netanelgilad/meteor-angular-server',
+  git: 'http://gihub.com/netanelgilad/polyfill-angular-server',
   documentation: 'README.md'
 });
 
